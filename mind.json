@@ -1,0 +1,27 @@
+{
+    "spoken": {
+        "greetings": [
+            "greetings",
+            "hello",
+            "good morning",
+            "hi"
+        ],
+        "goodbyes": [
+            "goodbyes",
+            "goodbye",
+            "see you soon"
+        ]
+    },
+    "answers": {
+        "greetings": [
+            "How are you today?",
+            "What can I help you with?",
+            "How can I make your day more pleasant?",
+            "What up, fucker???"
+        ],
+        "goodbyes": [
+            "Goodbye dear",
+            "not if I see you first"
+        ]
+    }
+}

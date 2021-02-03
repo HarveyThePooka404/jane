@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #333333;
+  }
+  
+  .chatbot {
+    font-size: 2em;
+    color: #f2f3f4;
+    padding-bottom: 20px;
+  }
+  
+  #theInput {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    position: fixed;
+    bottom: 20px;
+    border: none;
+    font-size: 1.5em;
+  
+    outline: none;
+    color: #7f7f7f;
+    font-family: "Times New Roman", Times, serif;
+    align-self: center;
+    max-width: 750px;
+    width: 100%;
+  }
+  
+  .userInput {
+    font-size: 2em;
+    width: fit-content;
+    outline: none;
+    color: #7F7FA9;
+    font-family: "Times New Roman", Times, serif;
+    text-align: right;
+    align-self: flex-end;
+    padding-bottom: 20px;
+  }
+  
+  .conversationwrapper {
+    overflow-y: scroll;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    height: 80vh;
+  }
+
+  /* mobile for the conversation */ 
+
+  @media only screen and (max-width: 770px) {
+     .conversationwrapper{
+        width: 80%;
+        left: 10%;
+     } 
+
+     #theInput {
+         width: 80%;
+     }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+  }
+  
+  .conversationText {
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 2em;
+  }
+  
